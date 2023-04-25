@@ -15,7 +15,6 @@ func TestInsert(t *testing.T) {
 	list.Append(3)
 	list.Append(4)
 	list.Append(5)
-
 	if list.Size() != 5 {
 		t.Error("Error en Append")
 	}
@@ -28,7 +27,7 @@ func TestInsert(t *testing.T) {
 	}
 }
 
-func TestDelete(t *testing.T) {
+func TestDeletear(t *testing.T) {
 	list := linkedlist.NewLinkedList[int]()
 	list.Append(0)
 	list.Append(1)
